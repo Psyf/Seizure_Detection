@@ -92,4 +92,3 @@ def augment_data(labels, eeg_data):
 	labels[:], eeg_data[:] = zip(*combined)
 
 	return labels, eeg_data
-	
